@@ -1,0 +1,27 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.answer {
+    background-color: white;
+    padding: 12px;
+    margin: 12px;
+}
+
+.wrapper-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.wrapper-answer {
+    padding: 10px;
+    border: 1px solid #212121;
+}
+
+.text-red {
+    color: red;
+}
