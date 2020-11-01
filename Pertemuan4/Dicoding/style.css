@@ -1,0 +1,49 @@
+#right-nav li{
+    cursor: pointer !important;
+}
+
+.navbar {
+    background-color: transparent;
+  }
+
+.scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #667490;
+    color: white;
+}
+html{
+    overflow-x: hidden;
+}
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    width: 100%;
+}
+
+#intro {
+    background: url("https://d17ivq9b7rppb3.cloudfront.net/original/commons/home-hero-new.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.award-section {
+    background-color: #dee2e6;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.list-unstyled li a{
+    color: #3d3d3d!important
+}
+
+#sosmed li{
+    float: left;
+    color: #3d3d3d!important;
+}
