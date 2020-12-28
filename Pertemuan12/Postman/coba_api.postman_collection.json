@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "fd25836c-fba8-455a-b613-3a5595de1f0d",
+		"name": "coba_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/siswa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "Irfan Mulyana Abdillah",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "Rempoah RT 01 / 03",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/siswa",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa"
+					]
+				},
+				"description": "pertemuan 12 tugas latihan RestApi menggunakan laravel"
+			},
+			"response": []
+		}
+	]
+}
